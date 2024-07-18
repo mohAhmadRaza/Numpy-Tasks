@@ -1,0 +1,10 @@
+import numpy
+
+numpy.set_printoptions(legacy='1.13')
+L = list(map(float, input().split()))
+
+arr = numpy.array(L)
+
+print(numpy.floor(arr))
+print(numpy.ceil(arr))
+print(numpy.rint(arr))
